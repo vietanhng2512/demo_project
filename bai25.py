@@ -21,6 +21,7 @@ Ihsv_hist = cv2.calcHist(
 print("Kênh V được cân bằng: \n", Ihsv_hist)
 plt.plot(Ihsv_hist)
 plt.show()
+print("s")
 
 # 25c. Thay đổi kênh V của Ihsv thành kênh V đã cân bằng. Chuyển Ihsv về biểu diễn RGB được ảnh I2.
 # Hiển thị I2.
